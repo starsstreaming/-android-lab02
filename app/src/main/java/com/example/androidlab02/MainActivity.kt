@@ -12,8 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-private const val HTTPS_URL = "https://httpbin.org/get?room=A203"
-private const val HTTP_URL = "http://httpbin.org/get?room=A203"
+private const val HTTPS_URL = "https://httpbin.org/get?room=A204"
+private const val HTTP_URL = "http://httpbin.org/get?room=A204"
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

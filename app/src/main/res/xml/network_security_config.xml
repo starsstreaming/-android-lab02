@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  网络安全配置（network security config）
+  base-config 始终禁止明文，仅对测试域名 httpbin.org 单独放行，
+  因此 App 访问其他域名的明文 HTTP 依旧会被系统拦截。
+  放行 httpbin.org 仅用于本实验的 HTTP/HTTPS 对比。
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">httpbin.org</domain>
+    </domain-config>
+</network-security-config>
