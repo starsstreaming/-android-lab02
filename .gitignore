@@ -1,0 +1,12 @@
+# 构建产物与本地配置不纳入版本控制；源码、资源、Gradle 构建配置与 wrapper 需要提交。
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.jks
+*.keystore
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
